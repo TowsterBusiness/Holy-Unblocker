@@ -21,7 +21,7 @@ async function Fetch(server_request, request_headers, url){
 		headers: request_headers,
 	};
 
-	console.log(url)
+	console.log(url.host + url.path)
 	
 	let outgoing;
 
