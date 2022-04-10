@@ -20,6 +20,8 @@ async function Fetch(server_request, request_headers, url){
 		method: server_request.method,
 		headers: request_headers,
 	};
+
+	console.log(url)
 	
 	let outgoing;
 
